@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-CardCompare AI Card Finder — Backend Server (Gemini)
-=====================================================
-Requires: pip install fastapi uvicorn google-generativeai
+CardCompare AI Card Finder — Backend Server (Groq)
+===================================================
+Requires: pip install fastapi uvicorn groq
 
-Set your Gemini API key as environment variable:
-  export GEMINI_API_KEY=AIza...
+Set your Groq API key as environment variable:
+  export GROQ_API_KEY=gsk_...
 
 Then run:
   python server.py
@@ -14,8 +14,7 @@ Then run:
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from google import genai
-from google.genai import types
+from groq import Groq
 import os
 
 app = FastAPI()
@@ -26,13 +25,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize Gemini client — uses GEMINI_API_KEY env variable
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", ""))
+# Initialize Groq client — uses GROQ_API_KEY env variable
+client = Groq(api_key=os.environ.get("GROQ_API_KEY", ""))
 
 # ====== CHANGE MODEL NAME HERE IF NEEDED ======
-# Options: gemini-2.0-flash, gemini-1.5-flash, gemini-1.5-pro
-# See https://ai.google.dev/gemini-api/docs/models
-MODEL_NAME = "gemini-2.5-flash"
+# Options: llama-3.3-70b-versatile, llama-3.1-8b-instant, mixtral-8x7b-32768
+# See https://console.groq.com/docs/models
+MODEL_NAME = "llama-3.3-70b-versatile"
 
 CARD_DATA = """
 ALL CARDS DATABASE (as of March 2026):
@@ -144,40 +143,24 @@ async def recommend(request: Request):
         user_msg = body.get("message", "")
         history = body.get("history", [])
 
-        # Build Gemini chat history (role must be "user" or "model")
-        contents = []
+        # Build message history for Groq (OpenAI-compatible format)
+        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
         for h in history[-10:]:
-            role = "model" if h["role"] == "assistant" else "user"
-            contents.append(
-                types.Content(role=role, parts=[types.Part(text=h["content"])])
-            )
-        contents.append(
-            types.Content(role="user", parts=[types.Part(text=user_msg)])
-        )
+            messages.append({"role": h["role"], "content": h["content"]})
+        messages.append({"role": "user", "content": user_msg})
 
-        response = client.models.generate_content(
+        response = client.chat.completions.create(
             model=MODEL_NAME,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                max_output_tokens=2048,
-            ),
-            contents=contents,
+            messages=messages,
+            max_tokens=2048,
         )
-        reply = response.text
+        reply = response.choices[0].message.content
         return JSONResponse({"reply": reply})
     except Exception as e:
         import traceback
         traceback.print_exc()
         return JSONResponse({"reply": f"Error: {str(e)}"}, status_code=500)
 
-
-@app.get("/api/models")
-async def list_models():
-    try:
-        models = [m.name for m in client.models.list() if "generateContent" in (m.supported_actions or [])]
-        return {"models": models}
-    except Exception as e:
-        return {"error": str(e)}
 
 @app.get("/api/health")
 async def health():
