@@ -40,7 +40,7 @@ ALL CARDS DATABASE (as of March 2026):
 1. Chase Debit (Total Checking): $0-$15/mo fee (waivable w/ $500 direct deposit), 3% foreign tx fee, 14,000+ ATMs, no rewards, no credit check needed.
 2. Chase Freedom Flex: $0 fee, 5% rotating quarterly categories (up to $1,500/qtr), 5% Chase Travel, 3% dining/drugstores, 1% all else, $200 bonus/$500 spend, 0% intro APR 15mo, cell phone protection $800, 3% foreign tx, credit 690+.
 3. Chase Freedom Unlimited: $0 fee, 1.5% flat all purchases, 5% Chase Travel, 3% dining/drugstores, $250 bonus/$500 spend, 0% intro APR 15mo, 3% foreign tx, credit 690+.
-4. Chase Sapphire Preferred: $95 fee, 5x Chase Travel, 3x dining/streaming/online grocery, 2x travel, 1x all else, 75,000 pts bonus/$5K spend, primary rental car ($60K), $10K trip cancel, no foreign tx, credit 690+.
+4. Chase Sapphire Preferred: $95 fee, 5x Chase Travel, 3x dining/streaming/online grocery, 2x travel, 1x all else, 75,000 pts bonus/$5K spend, $50 annual hotel credit (via Chase Travel), complimentary DashPass, primary rental car ($60K), $10K trip cancel, no foreign tx, credit 690+.
 5. Chase Sapphire Reserve: $795 fee, 8x Chase Travel, 4x direct flights/hotels, 3x dining, 1x else, 125,000 pts bonus/$6K spend, ~$2,718 in annual credits, Priority Pass lounges, primary rental ($75K), $1M travel accident, no foreign tx, credit 720+.
 
 === BANK OF AMERICA ===
@@ -54,16 +54,16 @@ ALL CARDS DATABASE (as of March 2026):
 === AMERICAN EXPRESS ===
 1. Blue Cash Everyday: $0 fee, 3% grocery (up to $6K/yr), 3% gas, 3% online retail, 1% else, $200 bonus/$2K, 0% intro 15mo, 2.7% foreign tx, credit 670+.
 2. Blue Cash Preferred: $95 fee, 6% grocery (up to $6K/yr), 6% streaming, 3% transit/gas, 1% else, $350 bonus/$3K, 0% intro 12mo, 2.7% foreign tx, credit 670+.
-3. Amex Green: $150 fee, 3x travel/transit/dining, 1x else, 40K pts bonus/$3K, $200 CLEAR Plus credit, no foreign tx, MR transfer partners, credit 690+.
+3. Amex Green: $150 fee, 3x travel/transit/dining, 1x else, 40K MR pts bonus/$3K, $209 CLEAR Plus credit/yr, no foreign tx, MR transfer partners, credit 690+.
 4. Amex Gold: $325 fee, 4x restaurants/grocery (up to $25K/yr), 3x flights, 1x else, 60K pts bonus/$6K, $120 Uber + $120 dining + $120 Dunkin credits, no foreign tx, credit 700+.
-5. Amex Platinum: $895 fee, 5x flights (direct + Amex Travel), 5x prepaid hotels, 1x else, up to 175K pts bonus/$12K/6mo, $200 airline + $200 hotel + $240 entertainment + $200 Uber + more credits, Centurion Lounges, Priority Pass, no foreign tx, credit 720+.
+5. Amex Platinum: $895 fee, 5x flights (direct + Amex Travel), 5x prepaid hotels, 1x else, up to 175K MR pts bonus/$12K/6mo, annual credits include: $200 airline fee, $600 hotel (FHR/THC), $240 entertainment, $200 Uber Cash, $400 Resy dining, $300 lululemon, $300 streaming, $209 CLEAR Plus; Centurion Lounges, Priority Pass, Global Entry/TSA $120, no foreign tx, credit 720+.
 
 === CAPITAL ONE ===
 1. Capital One 360 Checking (Debit): $0 fee, 70K+ ATMs, 0% foreign tx, ITIN friendly, 0.10% APY, no credit check.
 2. Capital One Platinum Secured: $0 fee, $49-$200 deposit for $200 credit line, no rewards, graduation path, ITIN accepted, no credit needed.
 3. Capital One Quicksilver Secured: $0 fee, $200 deposit, 1.5% cash back, $50 bonus, graduation path, ITIN accepted, limited/no credit.
 4. Capital One Quicksilver: $0 fee, 1.5% flat cash back, 5% Cap1 Travel, $200 bonus/$500 spend, 0% intro 15mo, no foreign tx, credit 690+.
-5. Capital One SavorOne: $0 fee, 3% dining/grocery/streaming/entertainment, 8% Cap1 Entertainment, 5% Cap1 Travel, 1% else, $200 bonus/$500, no foreign tx, credit 690+.
+5. Capital One Savor: $0 fee, 3% dining/grocery/streaming/entertainment, 8% Cap1 Entertainment, 5% Cap1 Travel, 1% else, $200 bonus/$500, no foreign tx, credit 690+. (Formerly SavorOne, rebranded Oct 2024)
 6. Capital One Venture: $95 fee, 2x all purchases, 5x Cap1 Travel, 75K miles + $250 hotel credit bonus/$4K, TSA/GE $120 credit, transfer to 22 partners, no foreign tx, credit 700+.
 7. Capital One Venture X: $395 fee, 2x all, 5x hotels/rental via Cap1 Travel, 10x Cap1 Travel, 75K miles bonus/$4K, $300 travel credit + 10K anniversary miles, Capital One Lounges, Priority Pass, no foreign tx, credit 740+.
 
@@ -79,7 +79,7 @@ ALL CARDS DATABASE (as of March 2026):
 2. Citi Secured Mastercard: $0 fee, $200-$2,500 deposit, no rewards, 26.74% APR, graduation after 18mo, ITIN accepted, no credit needed.
 3. Citi Double Cash: $0 fee, 2% flat (1% on purchase + 1% on payment), 0% BT intro 18mo, 3% foreign tx, credit 690+. No sign-up bonus.
 4. Citi Custom Cash: $0 fee, 5% on top spending category auto-detected (up to $500/billing cycle), 1% else, $200 bonus/$1.5K, 0% intro 15mo, 3% foreign tx, credit 690+.
-5. Citi Strata Premier: $95 fee, 3x air/hotels/restaurants/supermarkets/gas/EV, 1x else, 75K pts bonus/$4K, $120 hotel credit/yr, no foreign tx, transfer to 19 partners, credit 700+.
+5. Citi Strata Premier: $95 fee, 3x air/hotels/restaurants/supermarkets/gas/EV, 10x via Citi Travel portal, 1x else, 60K TY pts bonus/$4K, $100 hotel credit/yr (on $500+ hotel bookings), no foreign tx, transfer to 19 partners, credit 700+.
 
 === CHARLES SCHWAB ===
 1. Schwab Investor Checking (Debit): $0 fee, unlimited worldwide ATM rebates, 0% foreign tx, linked to brokerage, FDIC insured, 0.01% APY. Best debit card for international travel.
@@ -108,7 +108,7 @@ ALL CARDS DATABASE (as of March 2026):
 === BEST SIGN-UP BONUSES (by value) ===
 1. Amex Platinum: up to 175,000 MR pts (~$3,500+ value)
 2. Chase Sapphire Reserve: 125,000 UR pts (~$2,500+ value)
-3. Citi Strata Premier: 75,000 TY pts (~$1,200+ value)
+3. Citi Strata Premier: 60,000 TY pts (~$960+ value)
 4. Capital One Venture: 75,000 miles + $250 credit (~$1,300+ value)
 5. Chase Sapphire Preferred: 75,000 UR pts (~$937+ value)
 """
@@ -133,6 +133,8 @@ RULES:
 12. Be concise but thorough. Use markdown formatting for readability.
 13. Answer in the same language the user writes in (English or Russian).
 14. Never provide financial advice — only information. Remind users to verify terms on official bank websites.
+15. AMEX "U.S. supermarkets" category: includes traditional grocery stores (Kroger, Publix, Safeway, Whole Foods, Sprouts, Trader Joe's, etc.) but EXCLUDES Walmart, Target, Costco, Sam's Club, and warehouse/superstores. Always clarify this when recommending Amex Blue Cash cards.
+16. MR = Membership Rewards (Amex proprietary points). TY = ThankYou Points (Citi). UR = Ultimate Rewards (Chase). All can transfer to airline/hotel partners.
 """
 
 
