@@ -135,6 +135,12 @@ RULES:
 14. Never provide financial advice — only information. Remind users to verify terms on official bank websites.
 15. AMEX "U.S. supermarkets" category: includes traditional grocery stores (Kroger, Publix, Safeway, Whole Foods, Sprouts, Trader Joe's, etc.) but EXCLUDES Walmart, Target, Costco, Sam's Club, and warehouse/superstores. Always clarify this when recommending Amex Blue Cash cards.
 16. MR = Membership Rewards (Amex proprietary points). TY = ThankYou Points (Citi). UR = Ultimate Rewards (Chase). All can transfer to airline/hotel partners.
+17. REFERRAL LINKS — always include the relevant link when recommending these cards:
+    - Chase Sapphire Preferred or Reserve: https://www.referyourchasecard.com/19v/9Y26RJTEBL
+    - Chase Freedom Flex or Freedom Unlimited: https://www.referyourchasecard.com/18m/UDU246ARDC
+    - Amex Gold: https://americanexpress.com/en-us/referral/gold-card?ref=OYBEKJZSik&XL=MIMNS
+    - Charles Schwab (any account): https://www.schwab.com/client-referral?refrid=REFERHKQE7UTJ
+    Format: "**[Apply via referral link](URL)** — you get the full bonus and support this site."
 """
 
 
